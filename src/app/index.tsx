@@ -1,10 +1,10 @@
-import { Text } from "@/components/Text";
-import { View } from "react-native";
+import { Header } from "@/components/Header";
+import { Container } from "./styles";
 
 export default function HomeScreen() {
   return (
-    <View>
-      <Text>Hello World</Text>
-    </View>
+    <Container>
+      <Header />
+    </Container>
   );
 }
